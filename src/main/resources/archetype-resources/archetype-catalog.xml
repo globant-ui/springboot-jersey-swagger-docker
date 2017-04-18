@@ -1,0 +1,15 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog>
+       <archetypes>
+          <archetype>
+              <groupId>${groupId}</groupId>
+              <artifactId>${artifactId}-archetype</artifactId>
+              <version>${version}</version>
+              <repository></repository>
+              <description>${artifactId} test archetype</description>
+          </archetype>
+       </archetypes>
+</archetype-catalog>
